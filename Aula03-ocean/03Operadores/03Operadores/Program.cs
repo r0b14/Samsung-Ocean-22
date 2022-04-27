@@ -29,9 +29,14 @@ namespace _03Operadores
 
             // Expressões mais complexas de booleano
             bool verificador1 = (2 > 3) && (4 != 5);
-            Console.WriteLine(verificador1);
+            Console.WriteLine(verificador1); 
 
-
+            /** OUTROS OPERADORES
+             * && -> AND
+             * || -> OR
+             * != -> DIFERENTE
+             * ! -> NEGAÇÃO
+             **/
             Console.ReadKey();
 
         }
