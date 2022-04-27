@@ -27,8 +27,16 @@ namespace ConsoleApp1
              * = -> atribuição
              * 22 -> o valor que vai ser guardado no variavel do tipo string
              */
-            Console.WriteLine(nome);
-            Console.WriteLine(idade);
+            Console.WriteLine("Nome= " + nome);
+            Console.WriteLine("Idade= " + idade);
+
+            string a = "ABC";
+            a += "DEF";
+            Console.WriteLine("String a= " + a);
+
+            /**
+             * Vale pensar como o JS funciona na sintaxe
+            **/
             Console.ReadKey();
         }
     }

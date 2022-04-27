@@ -25,6 +25,7 @@ namespace Aula03_Operadores
             Console.WriteLine("Resto da divisão= " + (primeiro % segundo));
 
 
+
             Console.ReadKey();
         }
     }
