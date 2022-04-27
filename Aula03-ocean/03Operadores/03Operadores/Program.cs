@@ -27,6 +27,13 @@ namespace _03Operadores
             Console.WriteLine(c3);
             Console.WriteLine(c4);
 
+            // Expressões mais complexas de booleano
+            bool verificador1 = (2 > 3) && (4 != 5);
+            Console.WriteLine(verificador1);
+
+
+            Console.ReadKey();
+
         }
     }
 }
